@@ -7,6 +7,7 @@ public class TivoliRideTest {
     public class TivoliRideTest {
         public static void main(String[] args) {
             TivoliRideTest();
+            System.out.println("Goodbye!");
         }
             public static void TivoliRideTest()
             {
