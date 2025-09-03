@@ -2,6 +2,7 @@ public class TivoliRide {
 
         //attributes
         public double height;
+        public double width;
 
         //constructor
         public TivoliRide(double height) {
