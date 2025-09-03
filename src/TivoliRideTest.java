@@ -14,6 +14,7 @@ public class TivoliRideTest {
 
                 System.out.print("How tall are you");
                 double height = input.nextDouble();
+                return sc.nextDoubl
 
 
             }
