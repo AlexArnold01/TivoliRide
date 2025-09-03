@@ -6,6 +6,7 @@ public class TivoliRideTest {
         public static void main(String[] args) {
             TivoliRideTest();
             System.out.println("Goodbye!");
+            System.out.println("Jeg virker");
         }
             public static void TivoliRideTest()
             {
