@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class TivoliRideTest {
 
-    import java.util.Scanner;
-
     public class TivoliRideTest {
         public static void main(String[] args) {
             TivoliRideTest();
