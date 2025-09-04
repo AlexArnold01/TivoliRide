@@ -1,21 +1,15 @@
 import java.util.Scanner;
 
 public class TivoliRideTest {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter your height in centimeters: ");
+        double height = input.nextDouble();
 
-    public class TivoliRideTest {
-        public static void main(String[] args) {
-            TivoliRideTest();
-            System.out.println("Jeg virker");
-        }
-            public static void TivoliRideTest()
-            {
-                Scanner input = new Scanner(System.in);
+        TivoliRide ride = new TivoliRide(height);
+        String result = ride.getEligibilityMessage();
+        System.out.println(result);
 
-                System.out.print("How tall are you");
-                double height = input.nextDouble();
-                return sc.nextDoubl
-
-
-            }
+        input.close();
     }
 }
